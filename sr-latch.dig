@@ -1,34 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
-  <version>1</version>
+  <version>2</version>
   <attributes/>
   <visualElements>
-    <visualElement>
-      <elementName>NOr</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="480" y="180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>NOr</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="480" y="300"/>
-    </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>R</string>
+          <string>S</string>
         </entry>
       </elementAttributes>
       <pos x="420" y="180"/>
@@ -48,7 +28,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>S</string>
+          <string>R</string>
         </entry>
       </elementAttributes>
       <pos x="420" y="340"/>
@@ -62,6 +42,26 @@
         </entry>
       </elementAttributes>
       <pos x="640" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NAnd</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="480" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NAnd</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="480" y="300"/>
     </visualElement>
   </visualElements>
   <wires>
